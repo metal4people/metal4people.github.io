@@ -1,1 +1,45 @@
-site_name: My Docs
+site_name: Nice coding problems
+site_url: https://metal4people.github.io/
+site_author: Taras Sich
+
+theme:
+  name: material
+  font:
+    text: Tinos
+  palette: 
+    - scheme: ncpas
+      toggle:
+        icon: material/toggle-switch 
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+
+  features:
+    - navigation.tracking
+
+markdown_extensions:
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - css/extra.css
+
+nav:
+  - Home: index.md
+  - Palindromic substrings: palindromic_substrings.md
+  - Changelog: changelog.md
