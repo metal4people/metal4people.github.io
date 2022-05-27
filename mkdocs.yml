@@ -39,6 +39,11 @@ extra_javascript:
 extra_css:
   - css/extra.css
 
+extra:
+  analytics:
+    provider: google
+    property: G-X5J7YMJ3WP
+    
 nav:
   - Home: index.md
   - Palindromic substrings: palindromic_substrings.md
