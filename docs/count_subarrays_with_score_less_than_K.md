@@ -46,11 +46,11 @@ Thus, there are 5 subarrays having scores less than 5.
 If there is an array with length $L$ and $score < K$, then it produces $S = 1 + 2 + 3 + ... + L$ different subarrays.
 
 ## Solution: prefix sum + binary search
-1. Create the prefix sum array;
-2. For each $i-th$ find the longest subarray with $score < K$;
-3. Calculate and add $S$ to the result.
+1. Create the prefix sum array [6-10];
+2. For each $i_{th}$ find the longest subarray with $score < K$ [15-31];
+3. Calculate and add $S$ to the result [33].
 
-```cpp
+```cpp linenums="1"
 class Solution {
 public:
     long long countSubarrays(vector<int>& nums, long long k) 
@@ -99,7 +99,7 @@ Solution memory complexity: $O(n)$
 2. If $score$ $\geqslant$ $K$, then shrink window by popping out the element from the left until $score < K$;
 3. Calculate and add $S$ to the result.
 
-```cpp
+```cpp linenums="1"
 class Solution {
 public:
     long long countSubarrays(vector<int>& nums, long long k) 

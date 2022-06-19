@@ -24,3 +24,14 @@
   [data-md-color-scheme="slate"] img {
     background-color: lightgray;
   }
+
+img[src*='#left'] { 
+    float: left;
+}
+img[src*='#right'] { 
+    float: right;
+}
+img[src*='#center'] { 
+    display: block; 
+    margin: auto; 
+}
