@@ -1,5 +1,8 @@
 # Changelog
 
+### 0.1.5 <small>_ July 16, 2022</small> { id="0.1.5" }
+- Add [Candy sticks](candy_sticks.md)
+
 ### 0.1.4 <small>_ July 3, 2022</small> { id="0.1.4" }
 - Add [Robots in skyscraper](robots_in_skyscraper.md)
 
